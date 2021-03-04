@@ -41,8 +41,11 @@ a.navigation{
 }
 
 a.navigation:active {
-  border-top: solid 2px #0065FC;
-  color:  #0065FC;
+  color: #0065FC;
+}
+
+li.navbar-li:active {
+  border-top: solid 2px #0065FC
 }
 
 .navigation {
