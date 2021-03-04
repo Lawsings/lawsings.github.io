@@ -16,3 +16,7 @@ body {
 .navbar-brand {
   display: inline-block;
 }
+
+.navbar-content {
+  display: row;
+}
