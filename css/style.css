@@ -9,12 +9,12 @@ body {
 }
 
 .container {
- display: flex;
- flex-direction: row;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar-brand {
-  display: inline-block;
+.container .navbar-brand {
+    justify-content: flex-start;
 }
 
 .navbar-content {
