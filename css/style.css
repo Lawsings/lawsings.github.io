@@ -21,9 +21,7 @@ body {
 }
 
 .navbar-content {
-  display: row;
   justify-content: flex-end;
-
 }
 
 #navbar-ul {
@@ -44,7 +42,7 @@ a.navigation{
 
 a.navigation:active {
   border-top: solid 2px #0065FC;
-  color: black;
+  color:  #0065FC;
 }
 
 .navigation {
