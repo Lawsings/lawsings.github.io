@@ -36,3 +36,15 @@ body {
   float: left;
   margin: 0 15px;
 }
+
+a.navigation:active {
+  border-top: solid 2px #0065FC;
+}
+
+.navigation {
+
+}
+
+#signup {
+  font-weight: 500;
+}
