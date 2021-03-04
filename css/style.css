@@ -6,11 +6,14 @@ html {
 body {
   margin: 0 50px;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  height: 80px;
+  align-items: center;
 }
 
 .container .navbar-brand {
