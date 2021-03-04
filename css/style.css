@@ -20,5 +20,16 @@ body {
 .navbar-content {
   display: row;
   justify-content: flex-end;
-  
+
+}
+
+#navbar-ul {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+}
+
+.navbar-li {
+  float: left;
+  margin: 0 15px;
 }
