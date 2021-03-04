@@ -32,6 +32,7 @@ body {
   float: left;
   margin: 0 15px;
   height: 80px;
+  line-height: 80px;
 }
 
 a.navigation{
