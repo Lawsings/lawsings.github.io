@@ -8,7 +8,11 @@ body {
   padding: 0;
 }
 
-.nav {
+.container {
  display: flex;
  flex-direction: row;
+}
+
+.navbar-brand {
+  display: inline-block;
 }
