@@ -37,6 +37,10 @@ body {
   margin: 0 15px;
 }
 
+a.navigation{
+  text-decoration: none;
+}
+
 a.navigation:active {
   border-top: solid 2px #0065FC;
 }
