@@ -39,10 +39,12 @@ body {
 
 a.navigation{
   text-decoration: none;
+  color: black;
 }
 
 a.navigation:active {
   border-top: solid 2px #0065FC;
+  color: black;
 }
 
 .navigation {
