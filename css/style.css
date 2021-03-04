@@ -26,12 +26,12 @@ body {
 
 #navbar-ul {
   list-style:none;
-  padding: 20px 0;
 }
 
 .navbar-li {
   float: left;
   margin: 0 15px;
+  height: 80px;
 }
 
 a.navigation{
