@@ -40,11 +40,11 @@ a.navigation{
   color: black;
 }
 
-a.navigation:active {
+a.navigation:focus {
   color: #0065FC;
 }
 
-li.navbar-li:active {
+li.navbar-li:focus {
   border-top: solid 3px #0065FC
 }
 
@@ -66,4 +66,16 @@ h1 {
 .container-searchbar {
   padding: 3rem;
   width: 400px;
+}
+
+input[type="search"] {
+  background-clip: padding-box;
+  background-color: white;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  border: 1px solid #e0e0e5;
+  font-size: 1rem;
+  width: 100%;
+  line-height: 2;
+  padding: 0.375rem 1.25rem
 }
