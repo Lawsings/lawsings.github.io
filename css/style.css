@@ -59,7 +59,11 @@ h1 {
 }
 
 .searchbar {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh; }
+  display: flex;
+  justify-content: center;
+}
+
+.container-searchbar {
+  padding: 3rem;
+  width: 400px;
+}
