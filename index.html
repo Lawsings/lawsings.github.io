@@ -27,9 +27,25 @@
    <main>
      <h1>Trouvez votre hébergements pour des vacances de rêve</h1>
      <p>En plein centre ville ou en pleine nature</p>
-     <label for="site-search">Search the site:</label>
-     <input type="search" id="site-search" name="q" aria-label="Search through site content">
-     <button>Search</button>
+     <div class="searbar">
+       <label for="site-search">Search the site:</label>
+       <input type="search" id="site-search" name="search" aria-label="Search through site content">
+       <button>Search</button>
+    </div>
+
+     <div class="wrapper">
+       <div class="container">
+         <form role="search" method="get" class="search-form form" action="">
+           <label>
+            <span class="screen-reader-text">Search for...</span>
+            <input type="search" class="search-field" placeholder="Type something..." value="" name="s" title="" />
+          </label>
+          <input type="submit" class="search-submit button" value="" />
+        </form>
+      </div>
+    </div>
+
+
    </main>
   </body>
 </html>
