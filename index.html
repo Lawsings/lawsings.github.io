@@ -5,7 +5,7 @@
     <title>Reservia</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="description" content="Réservation d'hebergement ou d'activité partout en France | Réservia">
-    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href = "https://fonts.googleapis.com/css2? family = Raleway & display = swap" rel = "feuille de style ">
   </head>
@@ -13,7 +13,7 @@
    <header>
      <nav class="nav">
        <div class="container">
-         <a href="" class="navbar-brand"><img src="../img/logo/Reservia.svg" title="Retour à l'accueil" alt="Reservia"></a>
+         <a href="" class="navbar-brand"><img src="img/logo/Reservia.svg" title="Retour à l'accueil" alt="Reservia"></a>
          <div class="navbar-content">
            <ul id="navbar-ul">
              <a href="" class="navigation"><li class="navbar-li">Hébergements</li></a>
@@ -30,12 +30,24 @@
      <div class="searchbar">
        <div class="container-searchbar">
          <label for="site-search">Search the site:</label>
-         <a href="" class="map-marker"><img src="../img/ressources/map-marker-alt-solid.svg" title="map-marker" alt="Localisation"></a>
-         <input type="search" id="site-search" name="search" aria-label="Search through site content">
-         <button class="find">Rechercher</button>
+         <span class="searchbar-fusion-1">
+            <img src="img/ressources/map-marker-alt-solid.svg" title="map-marker" alt="Localisation" class="map-marker">
+         </span>
+        <span>
+          <input type="search" id="site-search" name="search" aria-label="Search through site content" placeholder="Marseille, France">
+        </span>
+         <spanv>
+           <button class="find">Rechercher</button>
+         </span>
        </div>
     </div>
-
+    <div class="filtre">
+      <span><p id="filtre-size">Filtres</p></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
    </main>
   </body>

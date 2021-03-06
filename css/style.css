@@ -17,7 +17,7 @@ body {
 }
 
 .container .navbar-brand {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .navbar-content {
@@ -60,22 +60,63 @@ h1 {
 
 .searchbar {
   display: flex;
-  justify-content: center;
 }
 
 .container-searchbar {
-  padding: 3rem;
+  display: flex;
+  align-items: center;
   width: 400px;
 }
 
+label {
+  display: none;
+}
+
 input[type="search"]{
-  
+  border: solid 2px #F2F2F2;
+  border-right: none;
+  border-left: none;
+  padding: 10px 30px;
+  margin: 0;
+}
+
+input[type="search"]:focus {
+  border-color: #F2F2F2;
+}
+.searchbar-fusion-1 {
+  border-radius: 10px 0 0 10px;
+  background-color: #F2F2F2;
+  width: 30px;
+  height: 40px;
 }
 
 .map-marker {
-
+  margin: 35% 35%;
+  background-color: #F2F2F2;
+  padding: 0;
+  width: 10px;
 }
 
 .find{
+  background-color: #0065FC;
+  color: white;
+  border: solid 2px #0065FC;
+  border-radius: 0 10px 10px 0;
+  border-right: none;
+  padding: 10px 30px;
+  margin: 0;
+}
 
+::placeholder {
+  color: black;
+  font-weight: 600;
+}
+
+.filtre {
+  margin : 20px 0;
+}
+
+#filtre-size {
+  color: black;
+  font-weight: 600;
 }
