@@ -40,11 +40,11 @@ a.navigation{
   color: black;
 }
 
-a.navigation:focus {
+a.navigation:hover {
   color: #0065FC;
 }
 
-li.navbar-li:focus {
+li.navbar-li:hover {
   border-top: solid 3px #0065FC
 }
 
