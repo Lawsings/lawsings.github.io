@@ -1,3 +1,5 @@
+
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -117,14 +119,10 @@
   border-style: solid;
   border-width: 2px;
   border-color: #deebff;
-  border-radius: 20px;
+  border-radius: 60px;
   background-color: #deebff;
 }
 
-.image-4.special {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 
 .search-bar {
   display: -webkit-box;
@@ -1136,4 +1134,3 @@
   -ms-grid-row-align: auto;
   align-self: auto;
 }
-
