@@ -73,6 +73,10 @@
   color: #000;
 }
 
+.column-8.w-col.w-col-2.tiny-tiny {
+    margin-left: 20px;
+}
+
 .link.active {
   padding-right: 0px;
   padding-left: 0px;
