@@ -515,7 +515,7 @@ textarea.w-select {
   padding-right: 0;
 }
 .w-col-1 {
-  width: 8.33333333%;
+  width: 10.33333333%;
 }
 .w-col-2 {
   width: 16.66666667%;
@@ -605,7 +605,7 @@ textarea.w-select {
     right: auto;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .w-hidden-main {
     display: inherit !important;
   }
@@ -625,6 +625,15 @@ textarea.w-select {
     left: auto;
     right: auto;
   }
+
+  .w-col-9 {
+  width: 66.66666667%;
+  }
+
+  .w-col-1 {
+    width: 16.66666667%;
+  }
+
   .w-col-small-1 {
     width: 8.33333333%;
   }
@@ -640,7 +649,7 @@ textarea.w-select {
   .w-col-small-5 {
     width: 41.66666667%;
   }
-  .w-col-small-6 {
+  /*.w-col-small-6 {*/
     width: 50%;
   }
   .w-col-small-7 {
@@ -659,6 +668,75 @@ textarea.w-select {
     width: 91.66666667%;
   }
   .w-col-small-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .column.w-col.w-col-9.w-col-small-6.w-col-tiny-6 {
+    width: 50%;
+  }
+  div#selected {
+    width: 50%;
+  }
+  .column-4.w-col.w-col-1.w-col-small-6.w-col-tiny-6 {
+    width: 50%;
+  }
+  .column-3.w-col.w-col-1.w-col-small-6.w-col-tiny-6 {
+    width: 50%;
+  }
+  .w-container {
+    max-width: none;
+  }
+  .w-hidden-main {
+    display: inherit !important;
+  }
+  .w-hidden-medium {
+    display: inherit !important;
+  }
+  .w-hidden-small {
+    display: inherit !important;
+  }
+  .w-hidden-tiny {
+    display: none !important;
+  }
+  .w-col {
+    width: 100%;
+  }
+  .w-col-tiny-1 {
+    width: 8.33333333%;
+  }
+  .w-col-tiny-2 {
+    width: 16.66666667%;
+  }
+  .w-col-tiny-3 {
+    width: 25%;
+  }
+  .w-col-tiny-4 {
+    width: 33.33333333%;
+  }
+  .w-col-tiny-5 {
+    width: 41.66666667%;
+  }
+  .w-col-tiny-6 {
+    width: 50%;
+  }
+  .w-col-tiny-7 {
+    width: 58.33333333%;
+  }
+  .w-col-tiny-8 {
+    width: 66.66666667%;
+  }
+  .w-col-tiny-9 {
+    width: 75%;
+  }
+  .w-col-tiny-10 {
+    width: 83.33333333%;
+  }
+  .w-col-tiny-11 {
+    width: 91.66666667%;
+  }
+  .w-col-tiny-12 {
     width: 100%;
   }
 }

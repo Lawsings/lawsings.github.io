@@ -68,7 +68,9 @@
   color: #0065fc;
   font-weight: 700;
 }
-
+ #card {
+   margin-top: 60px;
+ }
 .link.sign_up:hover {
   color: #000;
 }
@@ -83,6 +85,17 @@
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 1.125em;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  30% { transform: translateY(-10px); }
+  50% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+.filtre_item:hover {
+  animation-name: bounce;
+  animation-duration: 1s;
 }
 
 .filtres {
@@ -207,7 +220,7 @@
 .main {
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 24px;
+  font-size: 1.2rem;
 }
 
 .accroche {
@@ -376,7 +389,6 @@
 }
 
 .div-populaire {
-  margin-right: 40px;
   margin-left: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1159,6 +1171,15 @@
   background-repeat: no-repeat;
 }
 
+.filtres {
+  display: flex;
+  flex-direction: row;
+}
+
+.filtre_item {
+ margin: 0 10px;
+}
+
 .text_filtre {
   padding: 15px 20px;
   font-size: 0.75em;
@@ -1448,7 +1469,6 @@
 }
 
 .activit-_gnl {
-  margin-top: 60px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -1994,6 +2014,14 @@
     align-self: center;
   }
 
+  .w-col-9 {
+    width: 58.33333333%;
+  }
+
+  .w-col-1 {
+    width: 16.66666667%;
+  }
+
   .hebergements {
     padding-bottom: 5px;
     -webkit-box-ordinal-group: 4;
@@ -2293,6 +2321,19 @@
     margin-left: 10px;
     font-size: 18px;
     line-height: 20px;
+  }
+
+  .column.w-col.w-col-9.w-col-small-6.w-col-tiny-6 {
+    width: 50%;
+  }
+  div#selected {
+    width: 50%;
+  }
+  .column-4.w-col.w-col-1.w-col-small-6.w-col-tiny-6 {
+    width: 50%;
+  }
+  .column-3.w-col.w-col-1.w-col-small-6.w-col-tiny-6 {
+    width: 50%;
   }
 
   .button_find {
@@ -2977,4 +3018,3 @@
     justify-self: auto;
   }
 }
-
