@@ -29,9 +29,7 @@
   align-items: center;
 }
 
-.header.mobile {
-  display: none;
-}
+
 
 .logo_reservia {
   max-width: 100%;
