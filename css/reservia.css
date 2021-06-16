@@ -1174,6 +1174,18 @@
   flex-direction: row;
 }
 
+input[type="text"]{
+  border: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 0.75em;
+  font-weight: 800;
+}
+
+
 .filtre_item {
  margin: 3px 10px;
 }
