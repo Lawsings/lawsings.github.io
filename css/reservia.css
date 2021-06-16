@@ -1178,6 +1178,10 @@
   text-decoration: none;
 }
 
+.card_link{
+  text-decoration: none;
+}
+
 a, a:visited, a:hover, a:active { color: inherit; }
 
 input[type="text"]{
